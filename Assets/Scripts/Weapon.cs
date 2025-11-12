@@ -9,9 +9,9 @@ public class Weapon : MonoBehaviour
     [Range(-45, 45)] public float f_Ptich;
     [Range(1, 10)] public float f_Mass;
 
-    [SerializeField] private Slider s_AngleSlider;
+    public Slider s_AngleSlider;
     [SerializeField] private Slider s_ForceSlider;
-    [SerializeField] private Slider s_MassSlider;
+    public Slider s_MassSlider;
 
     [SerializeField] private GameObject g_ProjectilePrefab;
     [SerializeField] private Transform t_ProjectileSpawnPoint;
